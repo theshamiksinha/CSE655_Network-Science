@@ -4,3 +4,6 @@ Assignment2/Network Science Assignment 2 Rubric.pdf
 
 # Claude memory/config folder
 .claude/
+
+# This file itself
+.gitignore
