@@ -1,0 +1,70 @@
+NETWORK ANALYSIS OF ANIME VIEWING BEHAVIOR
+================================================================================
+
+DESCRIPTION
+
+This project analyzes the collective watching habits of hundreds of thousands
+of anime viewers to construct and study a complex behavioral network. Rather
+than relying on genre labels or critic scores, we build networks directly from
+what users actually watch, complete, drop, and plan to watch — revealing
+structure that reflects real taste communities, cultural bridges, and the
+evolution of anime as a global medium. Using one of the largest publicly
+available anime consumption datasets, we examine whether viewing behavior
+recapitulates genre taxonomy or tells a richer story, which titles act as
+structural hubs and cross-community bridges, and how the network grew and
+changed as anime expanded from a niche medium into a worldwide phenomenon.
+
+================================================================================
+PROJECT DELIVERABLES
+================================================================================
+
+Deliverable 1 — Basic Network Construction & Structural Analysis :
+Build the anime co-watch network where two anime are connected if a significant
+number of users completed both. Characterize whether this network behaves like
+a real-world complex network rather than a random graph. We plan on using
+methods such as degree distribution, power-law exponent estimation, clustering
+coefficient, average shortest path length, giant connected component analysis,
+and comparison against random graph null models, among others.
+
+Deliverable 2 — Bipartite Network & Multi-Layer Projection Analysis :
+Construct the explicit bipartite user-anime graph, then build and compare
+three separate co-watch projections based on different types of watching
+behavior — completion, dropout, and wishlist — to understand whether anime
+similarity changes depending on how users engage with a title. We plan on
+using methods such as bipartite degree distribution, bipartite clustering,
+projection onto the anime layer, edge set similarity between the projected
+networks, and identification of structural differences across the three
+behavioral layers, among others.
+
+Deliverable 3 — Community Detection & Genre Alignment :
+Apply community detection to the co-watch network and measure how well the
+discovered behavioral communities align with the labeled genre taxonomy from
+the metadata. Also build a genre co-occurrence network from metadata alone and
+compare its structure to the behavioral communities. We plan on trying to
+identify distinct viewer taste clusters, quantify how closely those clusters
+match known genre groupings, find anime that act as bridges between otherwise
+separate communities, and measure how pure or mixed each community is in terms
+of genre, among others.
+
+Deliverable 4 — Centrality, Hub Characterization & Network Robustness :
+Identify which anime are structurally critical to the network using multiple
+centrality measures, locate cut vertices, and test whether the network is
+robust to random failure but fragile to targeted hub removal. We also plan on
+correlating centrality scores with node attributes to understand what properties
+make an anime a hub. We plan on using methods such as degree centrality,
+betweenness centrality, closeness centrality, PageRank, cut vertex
+identification, targeted vs random attack simulation, and regression of
+centrality against node attributes, among others.
+
+Deliverable 5 — Network Growth Analysis Over Time :
+Build yearly cumulative snapshots of the co-watch network using the first-air
+year of each anime and track how the network's topology evolved as the catalog
+grew from the early 2000s to 2020. The goal is to identify whether a
+percolation threshold exists — a point in time where the giant component
+rapidly absorbed isolated clusters — and whether the network became more
+scale-free as it grew. We plan on using methods such as yearly snapshot
+construction, time series tracking of structural properties like giant component
+fraction, average degree, clustering, and modularity, as well as degree
+distribution comparison across early vs late snapshots, among others.
+
+================================================================================
