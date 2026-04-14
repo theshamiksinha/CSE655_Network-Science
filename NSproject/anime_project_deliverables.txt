@@ -26,6 +26,8 @@ methods such as degree distribution, power-law exponent estimation, clustering
 coefficient, average shortest path length, giant connected component analysis,
 and comparison against random graph null models, among others.
 
+Extra: Genre co watch network...
+
 Deliverable 2 — Bipartite Network & Multi-Layer Projection Analysis :
 Construct the explicit bipartite user-anime graph, then build and compare
 three separate co-watch projections based on different types of watching
